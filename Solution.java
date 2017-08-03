@@ -9,6 +9,7 @@ import java.util.Map;
 /* 
 
 Поиск текста внутри xls-файлов
+Параметры поиска указываются в main
 
 */
 public class Solution {
