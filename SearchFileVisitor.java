@@ -23,6 +23,10 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
 
+
+/**
+* Класс для прохождения по дереву файлов
+**/
 public class SearchFileVisitor extends SimpleFileVisitor<Path> {
     //список найденных файлов (key) и список строк (value), в которых найден искомый текст
     private HashMap<Path, List<String>> foundFiles = new HashMap<>();
